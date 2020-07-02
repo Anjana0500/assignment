@@ -1,0 +1,110 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #074a7d;
+  font-family: 'Raleway', sans-serif;
+}
+#header-nav {
+  background-color: #f7d111;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: auto;
+  margin-top:40px ;
+}
+.navbar-brand h1 { /* Food,LLC*/
+  font-family: 'Saira Condensed', sans-serif;
+  color: #074a7d;
+  font-size: 2.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #074a7d;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #074a7d;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* MAIN */
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color:#f7d111;
+}
+
+#main-content h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color:#f7d111;
+}
+
+#home-tiles p {
+  font-size: 1em;
+}
+
+#Chicken-tile, #Beef-tile, #Sushi-tile {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 60px;
+    box-shadow: 0 0 15px #f7d111;
+    border:	1px solid white;
+}
+/*End of MAIN*/
+
+
+@media (max-width: 767px){
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+   #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #074a7d;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+}
+
